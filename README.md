@@ -2,8 +2,16 @@
 
 There are 3 different programs in this project
 
-1. lastElement -> Finds the last element in the list without using inbuilt methods.
+1. lastElement
 
-2. Table -> Prints the table of each element present in the list
+2. Table
 
-3. StackAndQueue -> Implements basic operations of stack and queue.
+3. StackAndQueue
+
+To compile: sbt compile
+
+To test: sbt test
+
+To check style: sbt scalastyle
+
+To generate coverage report: sbt coverageReport
